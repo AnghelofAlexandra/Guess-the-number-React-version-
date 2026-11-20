@@ -1,0 +1,65 @@
+.game-container
+{
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+
+  text-align: center;
+  color: var(--text);
+
+  background-color: var(--accent-bg);
+  border-radius: 25px;
+  border: 1px solid var(--accent-border);
+}
+
+.game-input
+{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  margin: 25px 0;
+}
+
+#input-number
+{
+  padding: 5px;
+
+  border-radius: 5px;
+  border: 1px solid var(--accent-border);
+}
+
+.game-input button
+{
+  padding: 5px;
+
+  background-color: var(--accent);
+
+  border-radius: 5px;
+  border: 1px solid var(--accent-border);
+
+  transition: 0.5s ease-in-out;
+}
+
+.game-input button:hover
+{
+  opacity: 0.7;
+}
+
+.game-input button:disabled
+{
+  background-color: var(--social-bg);
+}
+
+#restart-btn
+{
+  margin: 20px auto 0 auto;
+  padding: 5px;
+
+  background-color: var(--social-bg);
+
+  border-radius: 5px;
+  border: 1px solid var(--accent-border);
+
+  transition: 0.5s ease-in-out;
+}
